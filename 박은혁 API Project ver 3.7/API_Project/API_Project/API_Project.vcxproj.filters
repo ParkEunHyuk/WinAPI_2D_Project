@@ -1,0 +1,648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\999.garbage">
+      <UniqueIdentifier>{df09f583-27ae-4c59-bb78-c76d95699b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Include">
+      <UniqueIdentifier>{d6e1749d-cc06-4872-b406-ef3d70fdf1ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainWorld">
+      <UniqueIdentifier>{54dbc186-51b9-4b70-a299-b140e07de8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj">
+      <UniqueIdentifier>{6cedeb95-6d14-4018-b7b1-728d084b3c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{4557a166-78ea-4d50-94bb-9d2ce9aa745b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager">
+      <UniqueIdentifier>{b1192955-e74f-47c3-92f3-1f2be6de46df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\00.Logo">
+      <UniqueIdentifier>{7e572fa7-4e03-4eba-97aa-f3df89f5cf2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.Menu">
+      <UniqueIdentifier>{b3b530b5-dd75-41ad-b9b4-41202124c75a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.Edit">
+      <UniqueIdentifier>{eedaa64e-bbc3-48cb-af90-9de3544b1e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\01.ObjMgr">
+      <UniqueIdentifier>{bdede94c-fff1-4992-b459-4f724ce114db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\03.KeyMgr">
+      <UniqueIdentifier>{3c58f033-084b-4c4c-b1c1-f64784ff80fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\04.ScrollMgr">
+      <UniqueIdentifier>{eab13ee5-0fb4-4481-a73a-e30b0b5901d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.Edit\00.Line">
+      <UniqueIdentifier>{b0f422a5-658f-4cb5-9498-a62fe5924426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\05.MyBitMap">
+      <UniqueIdentifier>{7bd820c8-fdf2-428d-b561-5f667ddf745d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\06.SceneMgr">
+      <UniqueIdentifier>{a5e39e2f-2a08-48be-975a-9cb8050a6acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\05.MyBitMap\BmpMgr">
+      <UniqueIdentifier>{5d500252-513f-4614-86fa-04b4f0c6ccab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.OverWorld">
+      <UniqueIdentifier>{529ef9dd-11f3-4434-9c21-26a1d7275160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\00.CollisionMgr">
+      <UniqueIdentifier>{367e16c2-c2dd-483f-b197-c1c9eeef5f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.Edit\01.LineMgr">
+      <UniqueIdentifier>{1e1e2f36-f5c1-4fd3-bfb5-5ddafb771be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Player">
+      <UniqueIdentifier>{e96bb849-e308-40df-ac1e-15b42d9f0db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\01.Player\00.BasicBullet">
+      <UniqueIdentifier>{210a1a35-ba8b-4fb4-a868-253e327d4d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Obj\00.OverPlayer">
+      <UniqueIdentifier>{9034669c-6965-452b-a4df-ab48ef70f889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.Edit\03.MyButton">
+      <UniqueIdentifier>{d91ca7a1-43cd-4731-b8ea-70fdf722ff71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.Edit\04.Tile">
+      <UniqueIdentifier>{b0a960d7-d449-45cb-a27f-cffd523d14fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.Edit\05.Rect">
+      <UniqueIdentifier>{8b49629f-2f97-4efb-a054-a1e611a72edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.OverWorld\00.StageButton">
+      <UniqueIdentifier>{87d65baa-c6b4-4404-be48-7b5f51f8db83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\05.StageFarm">
+      <UniqueIdentifier>{21a75edd-96ca-4d2b-a777-b5ba6b46f9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\05.StageFarm\00.PotatoMonster">
+      <UniqueIdentifier>{92373911-2445-4d84-b168-e3bb31cba8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\05.StageFarm\00.PotatoMonster\00.PotatoBullet">
+      <UniqueIdentifier>{b9bddd9e-b5ae-4f61-85cc-2e0594197f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\05.StageFarm\01.OnionMonster">
+      <UniqueIdentifier>{013fbc08-388a-4fed-b3f5-8ef289910a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\05.StageFarm\01.OnionMonster\OnionBullet">
+      <UniqueIdentifier>{ccf281ef-044d-4812-b699-17fcf26ba540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\05.StageFarm\02.CarrotMonster">
+      <UniqueIdentifier>{e62d0382-15b2-43ed-99ae-4bf7c45bb214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\05.StageFarm\02.CarrotMonster\00.CarrotBullet">
+      <UniqueIdentifier>{b27f8e51-0722-41b9-9939-0a9a82428548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\05.StageFarm\02.CarrotMonster\01.RingBullet">
+      <UniqueIdentifier>{bf3ff885-b752-4b17-a96f-08cf8f8d0757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\04.Bravo">
+      <UniqueIdentifier>{551c0af6-6ef2-4866-8e7c-c8d5bdd75e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower">
+      <UniqueIdentifier>{056ea07c-1170-46ca-8476-ba87c55e1a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster">
+      <UniqueIdentifier>{bb93d857-8a97-4edd-be76-d5de55456aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet">
+      <UniqueIdentifier>{1e5adb54-9ef3-4a09-a872-6ac7546c9845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\00.RedSeedBullet">
+      <UniqueIdentifier>{6eab2141-1c9e-4f52-ab7b-d1306dbbb73e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\01.BlueSeedBullet">
+      <UniqueIdentifier>{4f5c0a6f-b092-4681-afdf-6bcf24af9cc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\02.PurpleSeedBullet">
+      <UniqueIdentifier>{10ca9182-6c22-41b4-b062-a69fbd46e8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\03.RedMonster">
+      <UniqueIdentifier>{a446ffd0-e1fd-4bd2-bc67-5a89d9494ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\04.BlueMonster">
+      <UniqueIdentifier>{c43d4e5b-29dc-487f-9f6c-c38002438c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\05.PurpleMonster">
+      <UniqueIdentifier>{674312fc-6519-4285-933b-d132400d4dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\02.PurpleSeedBullet\00.Vine">
+      <UniqueIdentifier>{f79b15dc-1953-4bd4-90d1-c893b963cbdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\01.BlueSeedBullet\00.VineTwo">
+      <UniqueIdentifier>{84fbdf1c-ee1b-4895-9b2d-6c0be7cc1798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\05.PurpleMonster\00.PurpleBullet">
+      <UniqueIdentifier>{4e3f9f48-b18d-4ed2-b092-ebe444501d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\01.AcornBullet">
+      <UniqueIdentifier>{5395d418-1cd7-404f-aa79-0da68a2613c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\02.FaceAttack">
+      <UniqueIdentifier>{97078843-07b5-4458-8999-107a5f680a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\00.FlowerMonster\02.FaceAttack\00.FaceWhip">
+      <UniqueIdentifier>{4f3be255-ef38-4559-8bd2-b261a179c381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\01.AngryFlowerMonster">
+      <UniqueIdentifier>{23d2afd8-a1dc-4d23-aeba-2095338ffa90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\01.AngryFlowerMonster\00.FlowerBullet">
+      <UniqueIdentifier>{154e8c32-9081-4aa4-9487-786db61873e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\01.AngryFlowerMonster\01.VineWhip">
+      <UniqueIdentifier>{42db250c-ed07-462c-8c76-4fee30315249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\06.StageFlower\01.AngryFlowerMonster\01.VineWhip\00.VineSpear">
+      <UniqueIdentifier>{7ad96668-4bca-4628-ba16-45b478353263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.StageSlime">
+      <UniqueIdentifier>{bd9b9832-9260-4176-9ae7-1cc721aa5f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.StageSlime\00.LittleSlimeMonster">
+      <UniqueIdentifier>{8707555d-8bb7-4af6-93be-587770e2c224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.StageSlime\00.LittleSlimeMonster\00.HeadingMotion">
+      <UniqueIdentifier>{34e48505-2137-4871-aae3-9b32f134f5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.StageSlime\00.LittleSlimeMonster\00.HeadingMotion\00.Heading">
+      <UniqueIdentifier>{7890e44b-ed32-4cfd-bd0a-356a8d150dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.StageSlime\01.BigSlimeMonster">
+      <UniqueIdentifier>{1641aa26-57e8-41ef-9e12-86de30ead261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.StageSlime\01.BigSlimeMonster\00.PunchMotion">
+      <UniqueIdentifier>{d423462d-5ad2-4072-a99d-6810b8a0cdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.StageSlime\01.BigSlimeMonster\00.PunchMotion\00.Punching">
+      <UniqueIdentifier>{9efe8a7a-6f94-48fe-870d-32f40bc91d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.StageSlime\02.TombMonster">
+      <UniqueIdentifier>{e24ca455-6e1a-49bb-9428-e0367c55ae79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\07.StageSlime\02.TombMonster\00.DownAttacking">
+      <UniqueIdentifier>{f0aacc7a-cfb9-4129-8558-266bbf98ff3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Manager\07.SoundMgr">
+      <UniqueIdentifier>{3846cd66-8694-4a18-8fcf-1ea699ec67f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.OverWorld\01.Quest">
+      <UniqueIdentifier>{e6c829bc-601f-4031-a675-e94dd54170b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\08.StageClear">
+      <UniqueIdentifier>{30a86211-0f1d-415f-9b6d-0d1779930364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="API_Project.h">
+      <Filter>소스 파일\999.garbage</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\999.garbage</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\999.garbage</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWorld.h">
+      <Filter>00.MainWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01.Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>03.Manager\00.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>03.Manager\01.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMgr.h">
+      <Filter>02.Scene\03.Edit\01.LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>02.Scene\03.Edit\00.Line</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>03.Manager\04.ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>03.Manager\03.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitmap.h">
+      <Filter>03.Manager\05.MyBitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>03.Manager\05.MyBitMap\BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>02.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03.Manager\06.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>02.Scene\01.Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>02.Scene\03.Edit\03.MyButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>02.Scene\03.Edit\04.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="OverWorld.h">
+      <Filter>02.Scene\02.OverWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>02.Scene\03.Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="OverPlayer.h">
+      <Filter>01.Obj\00.OverPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>03.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRect.h">
+      <Filter>02.Scene\03.Edit\05.Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="StageButton.h">
+      <Filter>02.Scene\02.OverWorld\00.StageButton</Filter>
+    </ClInclude>
+    <ClInclude Include="StageFarm.h">
+      <Filter>02.Scene\05.StageFarm</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneInclude.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.Obj\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicBullet.h">
+      <Filter>01.Obj\01.Player\00.BasicBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PotatoMonster.h">
+      <Filter>02.Scene\05.StageFarm\00.PotatoMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="OnionMonster.h">
+      <Filter>02.Scene\05.StageFarm\01.OnionMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="PotatoBullet.h">
+      <Filter>02.Scene\05.StageFarm\00.PotatoMonster\00.PotatoBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="OnionBullet.h">
+      <Filter>02.Scene\05.StageFarm\01.OnionMonster\OnionBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CarrotMonster.h">
+      <Filter>02.Scene\05.StageFarm\02.CarrotMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CarrotBullet.h">
+      <Filter>02.Scene\05.StageFarm\02.CarrotMonster\00.CarrotBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="RingBullet.h">
+      <Filter>02.Scene\05.StageFarm\02.CarrotMonster\01.RingBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bravo.h">
+      <Filter>02.Scene\04.Bravo</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StageFlower.h">
+      <Filter>02.Scene\06.StageFlower</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowerMonster.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="RedSeedBullet.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\00.RedSeedBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueSeedBullet.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\01.BlueSeedBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PurpleSeedBullet.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\02.PurpleSeedBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="RedMonster.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\03.RedMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueMonster.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\04.BlueMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="PurpleMonster.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\05.PurpleMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Vine.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\02.PurpleSeedBullet\00.Vine</Filter>
+    </ClInclude>
+    <ClInclude Include="VineTwo.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\01.BlueSeedBullet\00.VineTwo</Filter>
+    </ClInclude>
+    <ClInclude Include="PurpleBullet.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\05.PurpleMonster\00.PurpleBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="AcornBullet.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\01.AcornBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceAttack.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\02.FaceAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceWhip.h">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\02.FaceAttack\00.FaceWhip</Filter>
+    </ClInclude>
+    <ClInclude Include="AngryFlowerMonster.h">
+      <Filter>02.Scene\06.StageFlower\01.AngryFlowerMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="FlowerBullet.h">
+      <Filter>02.Scene\06.StageFlower\01.AngryFlowerMonster\00.FlowerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="VineWhip.h">
+      <Filter>02.Scene\06.StageFlower\01.AngryFlowerMonster\01.VineWhip</Filter>
+    </ClInclude>
+    <ClInclude Include="VineSpear.h">
+      <Filter>02.Scene\06.StageFlower\01.AngryFlowerMonster\01.VineWhip\00.VineSpear</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSlime.h">
+      <Filter>02.Scene\07.StageSlime</Filter>
+    </ClInclude>
+    <ClInclude Include="LittleSlimeMonster.h">
+      <Filter>02.Scene\07.StageSlime\00.LittleSlimeMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="Heading.h">
+      <Filter>02.Scene\07.StageSlime\00.LittleSlimeMonster\00.HeadingMotion\00.Heading</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadingMotion.h">
+      <Filter>02.Scene\07.StageSlime\00.LittleSlimeMonster\00.HeadingMotion</Filter>
+    </ClInclude>
+    <ClInclude Include="BigSlimeMonster.h">
+      <Filter>02.Scene\07.StageSlime\01.BigSlimeMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="PunchMotion.h">
+      <Filter>02.Scene\07.StageSlime\01.BigSlimeMonster\00.PunchMotion</Filter>
+    </ClInclude>
+    <ClInclude Include="Punching.h">
+      <Filter>02.Scene\07.StageSlime\01.BigSlimeMonster\00.PunchMotion\00.Punching</Filter>
+    </ClInclude>
+    <ClInclude Include="TombMonster.h">
+      <Filter>02.Scene\07.StageSlime\02.TombMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="DownAttacking.h">
+      <Filter>02.Scene\07.StageSlime\02.TombMonster\00.DownAttacking</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>03.Manager\07.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.h">
+      <Filter>02.Scene\02.OverWorld\01.Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="StageClear.h">
+      <Filter>02.Scene\08.StageClear</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\999.garbage</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWorld.cpp">
+      <Filter>00.MainWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01.Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>03.Manager\00.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>03.Manager\01.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMgr.cpp">
+      <Filter>02.Scene\03.Edit\01.LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>02.Scene\03.Edit\00.Line</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>03.Manager\04.ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>03.Manager\03.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitmap.cpp">
+      <Filter>03.Manager\05.MyBitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>03.Manager\05.MyBitMap\BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>02.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03.Manager\06.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>02.Scene\01.Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>02.Scene\03.Edit\03.MyButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>02.Scene\03.Edit\04.Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="OverWorld.cpp">
+      <Filter>02.Scene\02.OverWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Project.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>02.Scene\03.Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="OverPlayer.cpp">
+      <Filter>01.Obj\00.OverPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRect.cpp">
+      <Filter>02.Scene\03.Edit\05.Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="StageButton.cpp">
+      <Filter>02.Scene\02.OverWorld\00.StageButton</Filter>
+    </ClCompile>
+    <ClCompile Include="StageFarm.cpp">
+      <Filter>02.Scene\05.StageFarm</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicBullet.cpp">
+      <Filter>01.Obj\01.Player\00.BasicBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.Obj\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PotatoMonster.cpp">
+      <Filter>02.Scene\05.StageFarm\00.PotatoMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="OnionMonster.cpp">
+      <Filter>02.Scene\05.StageFarm\01.OnionMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="PotatoBullet.cpp">
+      <Filter>02.Scene\05.StageFarm\00.PotatoMonster\00.PotatoBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="OnionBullet.cpp">
+      <Filter>02.Scene\05.StageFarm\01.OnionMonster\OnionBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="CarrotMonster.cpp">
+      <Filter>02.Scene\05.StageFarm\02.CarrotMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CarrotBullet.cpp">
+      <Filter>02.Scene\05.StageFarm\02.CarrotMonster\00.CarrotBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="RingBullet.cpp">
+      <Filter>02.Scene\05.StageFarm\02.CarrotMonster\01.RingBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Bravo.cpp">
+      <Filter>02.Scene\04.Bravo</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowerMonster.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="RedSeedBullet.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\00.RedSeedBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueSeedBullet.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\01.BlueSeedBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PurpleSeedBullet.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\02.PurpleSeedBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="RedMonster.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\03.RedMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueMonster.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\04.BlueMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="PurpleMonster.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\05.PurpleMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Vine.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\02.PurpleSeedBullet\00.Vine</Filter>
+    </ClCompile>
+    <ClCompile Include="StageFlower.cpp">
+      <Filter>02.Scene\06.StageFlower</Filter>
+    </ClCompile>
+    <ClCompile Include="VineTwo.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\01.BlueSeedBullet\00.VineTwo</Filter>
+    </ClCompile>
+    <ClCompile Include="PurpleBullet.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\00.SeedBullet\05.PurpleMonster\00.PurpleBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="AcornBullet.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\01.AcornBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceAttack.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\02.FaceAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceWhip.cpp">
+      <Filter>02.Scene\06.StageFlower\00.FlowerMonster\02.FaceAttack\00.FaceWhip</Filter>
+    </ClCompile>
+    <ClCompile Include="AngryFlowerMonster.cpp">
+      <Filter>02.Scene\06.StageFlower\01.AngryFlowerMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="FlowerBullet.cpp">
+      <Filter>02.Scene\06.StageFlower\01.AngryFlowerMonster\00.FlowerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="VineWhip.cpp">
+      <Filter>02.Scene\06.StageFlower\01.AngryFlowerMonster\01.VineWhip</Filter>
+    </ClCompile>
+    <ClCompile Include="VineSpear.cpp">
+      <Filter>02.Scene\06.StageFlower\01.AngryFlowerMonster\01.VineWhip\00.VineSpear</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSlime.cpp">
+      <Filter>02.Scene\07.StageSlime</Filter>
+    </ClCompile>
+    <ClCompile Include="LittleSlimeMonster.cpp">
+      <Filter>02.Scene\07.StageSlime\00.LittleSlimeMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="Heading.cpp">
+      <Filter>02.Scene\07.StageSlime\00.LittleSlimeMonster\00.HeadingMotion\00.Heading</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadingMotion.cpp">
+      <Filter>02.Scene\07.StageSlime\00.LittleSlimeMonster\00.HeadingMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="BigSlimeMonster.cpp">
+      <Filter>02.Scene\07.StageSlime\01.BigSlimeMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="PunchMotion.cpp">
+      <Filter>02.Scene\07.StageSlime\01.BigSlimeMonster\00.PunchMotion</Filter>
+    </ClCompile>
+    <ClCompile Include="Punching.cpp">
+      <Filter>02.Scene\07.StageSlime\01.BigSlimeMonster\00.PunchMotion\00.Punching</Filter>
+    </ClCompile>
+    <ClCompile Include="TombMonster.cpp">
+      <Filter>02.Scene\07.StageSlime\02.TombMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="DownAttacking.cpp">
+      <Filter>02.Scene\07.StageSlime\02.TombMonster\00.DownAttacking</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>03.Manager\07.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest.cpp">
+      <Filter>02.Scene\02.OverWorld\01.Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="StageClear.cpp">
+      <Filter>02.Scene\08.StageClear</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="API_Project.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="API_Project.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>소스 파일\999.garbage</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
